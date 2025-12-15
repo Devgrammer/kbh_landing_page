@@ -1,10 +1,10 @@
 import { MdPeopleOutline } from "react-icons/md";
 import type { EventType } from "../evenSection/EventSection";
 
-const EventCard = ({id,title, desc, desc2, event,imgURL, color, gath}:EventType) => {
+const EventCard = ({id,title, desc, event,imgURL, color, gath}:EventType) => {
  console.log(color)
   return (
-    <div className="event-card bg-stone-900 p-2 w-fit rounded-lg">
+    <div id={`card-${id}`} className="event-card bg-stone-900 p-2 w-fit rounded-lg">
       <div
         style={{ backgroundImage: `url(${imgURL})` }}
         className={`event-card relative flex items-end justify-start w-58 backdrop-sepia bg-center h-64  bg-no-repeat bg-cover rounded-lg`}

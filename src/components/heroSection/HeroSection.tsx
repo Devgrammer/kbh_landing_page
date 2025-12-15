@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { FiChevronsDown } from "react-icons/fi";
 import SectionWrapper from "../sectionWrapper/SectionWrapper";
+import type { Key } from "react";
 const HeroSection = () => {
   const { t } = useTranslation();
   return (
@@ -14,7 +15,7 @@ const HeroSection = () => {
       />
       <div className="slokha-container space-y-2">
         <div className="welcome-mantra text-4xl font-bold mx-auto">
-          {t(($) => $["Vakrtunda"])}
+          {t("Vakrtunda")}
         </div>
         <div className="welcome-mantra text-lg font-normal mx-auto">
           "घुमावदार सूंड वाले, विशाल शरीर काय, करोड़ सूर्य के समान महान

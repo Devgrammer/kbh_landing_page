@@ -1,4 +1,4 @@
-import React from 'react'
+
 import SectionHeading from '../sectionHeading/SectionHeading';
 import SectionWrapper from '../sectionWrapper/SectionWrapper';
 

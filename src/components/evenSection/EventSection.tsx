@@ -117,7 +117,7 @@ const EventSection = () => {
         >
           <FaChevronLeft />
         </button>
-        {eventDetail.slice(index, index+factor).map((ev, ind) => {
+        {eventDetail.slice(index, index+factor).map((ev) => {
           return (
             <EventCard
               key={`ec-${ev.id}`}

@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { FiChevronsDown } from "react-icons/fi";
 import SectionWrapper from "../sectionWrapper/SectionWrapper";
-import type { Key } from "react";
+
 const HeroSection = () => {
   const { t } = useTranslation();
   return (

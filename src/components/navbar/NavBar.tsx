@@ -33,7 +33,7 @@ const NavBar = () => {
       i18n.changeLanguage("en")
     }
   return (
-    <div className="flex justify-between items-center px-4 sticky top-0 bg-orange-100 rounded-xl   h-20">
+    <div className="flex justify-between items-center px-4  top-0 bg-orange-50 rounded-xl   h-20">
       <div className="brand-secion w-fit flex space-x-2 items-center">
         <div className="brand-logo">
           <img

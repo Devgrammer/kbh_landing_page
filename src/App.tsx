@@ -42,7 +42,7 @@ i18n
 function App() {
 
   return (
-    <div className="w-full p-4 space-y-4">
+    <div className="w-full p-4 space-y-4 bg-[#E74504]">
       <NavBar />
       <HeroSection />
       <AboutSection/>

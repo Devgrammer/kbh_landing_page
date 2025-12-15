@@ -4,7 +4,7 @@ import SectionHeading from '../sectionHeading/SectionHeading';
 
 const AboutSection = () => {
   return (
-    <SectionWrapper id={"about font-sam"}>
+    <SectionWrapper id={"about"}>
       <SectionHeading text="ABOUT US" addClass=""/>
       <div className="content-contianer w-full flex space-x-4 items-center">
         <div className="content-left w-1/2">

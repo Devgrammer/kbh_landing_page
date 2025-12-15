@@ -7,7 +7,7 @@ const HeroSection = () => {
     <SectionWrapper id={"home"}>
       <p className="welcome-mantra text-5xl">|| स्वागतम ||</p>
       <img
-        className="flex mx-auto "
+        className="flex mx-auto z-10 "
         src="/images/ganesha.png"
         alt=""
         width={400}
@@ -23,9 +23,18 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <a href={"#about"} className="h-12 w-12 cursor-pointer mx-auto mt-4 rounded-full p-2 ring-1 flex justify-center items-center">
+      <a
+        href={"#about"}
+        className="h-12 w-12 cursor-pointer mx-auto mt-4 rounded-full p-2 ring-1 flex justify-center items-center animate-bounce"
+      >
         <FiChevronsDown />
       </a>
+      <img
+        src="/images/mandala.png"
+        alt="mandala"
+        className="absolute top-30 left-[40%] overflow-clip opacity-30 animate-spin [animation-duration:6.5s]"
+        width={300}
+      />
     </SectionWrapper>
   );
 };

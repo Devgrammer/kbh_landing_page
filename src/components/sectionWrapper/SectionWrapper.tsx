@@ -7,7 +7,7 @@ interface ChildProp{
 
 const SectionWrapper = ({children, id}: ChildProp) => {
   return (
-    <section id={`${id}`} className="main  w-full min-h-fit text-black p-8 font-extrabold text-xl rounded-xl bg-[#F5ECE4]  mx-auto">
+    <section id={`${id}`} className="main  w-full min-h-screen max-h-auto text-black p-8 font-extrabold text-xl rounded-xl bg-[#F5ECE4] overflow-hidden  mx-auto">
       {children}
     </section>
   );

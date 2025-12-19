@@ -7,6 +7,36 @@
   font-style: normal;
  
 }
+
+@theme {
+  /* Define the custom utility class 'animate-marquee' and its properties */
+  --animate-marquee: marquee 25s linear infinite;
+  --animate-marquee2: marquee2 25s linear infinite;
+
+  /* Define the actual CSS @keyframes rule */
+  @keyframes marquee {
+    from {
+      transform: translateX(0%); /* Start position */
+    }
+    to {
+      transform: translateX(-100%); /* End position */
+    }
+    
+  }
+  
+    @keyframes marquee2 {
+    from {
+      transform: translateX(100%); /* Start position */
+    }
+    to {
+      transform: translateX(0%); /* End position */
+    }
+  }
+  --font-display: "sam", sans-serif;
+}
+
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif,sam;
   line-height: 1.5;

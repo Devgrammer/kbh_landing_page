@@ -5,6 +5,7 @@ const GallerySection = () => {
   return (
 <SectionWrapper id="gallery">
     <SectionHeading text="Gallery" addClass=''/>
+    
 
 </SectionWrapper>
   )
